@@ -19,3 +19,6 @@ def pascal_triangle(n):
                 line.append(triangle[i - 1][j - 1] + triangle[i - 1][j])
         triangle.append(line)
     return triangle
+    # Example usage:
+n = 5
+print(pascal_triangle(n))

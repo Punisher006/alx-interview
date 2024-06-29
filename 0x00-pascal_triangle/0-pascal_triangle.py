@@ -20,5 +20,4 @@ def pascal_triangle(n):
         triangle.append(line)
     return triangle
     # Example usage:
-n = 5
-print(pascal_triangle(n)
+n = 0
